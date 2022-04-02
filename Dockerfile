@@ -16,7 +16,7 @@ RUN mkdir -p build && cd build && CC=clang CXX=clang++ cmake .. && make cista-fu
 FROM ubuntu:20.04
 
 ## TODO: Change <Path in Builder Stage>
-COPY --from=builder /cista/build/cista-fuzz-graph /cista-fuzz
-COPY --from=builder /cista/build/cista-fuzz-bitset_verification /cista-fuzz
-COPY --from=builder /cista/build/cista-fuzz-hash_map_verification /cista-fuzz
-COPY --from=builder /cista/build/cista-fuzz-hash_set /cista-fuzz
+COPY --from=builder /cista/build/cista-fuzz-graph /
+COPY --from=builder /cista/build/cista-fuzz-bitset_verification /
+COPY --from=builder /cista/build/cista-fuzz-hash_map_verification /
+COPY --from=builder /cista/build/cista-fuzz-hash_set /

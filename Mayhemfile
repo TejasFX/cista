@@ -1,4 +1,4 @@
-project: cista
+project: cista-fuzz
 target: cista-fuzz
 
 cmds:

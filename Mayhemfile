@@ -1,0 +1,8 @@
+project: cista
+target: cista-fuzz
+
+cmds:
+  - cmd: /cista-fuzz-graph
+  - cmd: /cista-fuzz-bitset_verification
+  - cmd: /cista-fuzz-hash_map_verification
+  - cmd: /cista-fuzz-hash_set
